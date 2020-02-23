@@ -17,7 +17,6 @@ public class CountryService {
 	private final String URL = "http://localhost:8081/ws";
 
 	public GetCountryResponse getCountryDetails(CountryDetailsRequest request) {
-
 		template = new WebServiceTemplate(marshaller);
 		GetCountryResponse response = (GetCountryResponse) template.marshalSendAndReceive(URL, request);
 		return response;

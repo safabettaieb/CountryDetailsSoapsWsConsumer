@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2020.02.23 à 09:45:52 PM WAT 
+
+  -->
+  <bindings xmlns:tns="http://www.safa.com/country/soap/ws/countryDetails" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.safa.country.soap.ws.countrydetails"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:countryDetailsRequest">
+      <class ref="com.safa.country.soap.ws.countrydetails.CountryDetailsRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:getCountryResponse">
+      <class ref="com.safa.country.soap.ws.countrydetails.GetCountryResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:country">
+      <class ref="com.safa.country.soap.ws.countrydetails.Country"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:currency">
+      <typesafeEnumClass ref="com.safa.country.soap.ws.countrydetails.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>
